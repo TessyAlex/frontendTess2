@@ -1,0 +1,23 @@
+<app-nav></app-nav>
+<div class="body">
+<app-buttons></app-buttons>
+<!-- container is reffer to to do list -->
+
+<h1>Assign tasks</h1>
+<div class="form"><app-my-form></app-my-form></div>
+<div class="result-box">
+    Name: {{ result }}<!-- sEARCH BUTTON RESULT TO BE DISPLAYED HERE HTML -->
+  </div> 
+  <h3>Deadline</h3>
+  <div class="deadline">
+    <!-- <form (ngSubmit)="submitForm()"> -->
+        <form>
+            <input type="date" placeholder="Enter the deadline" name="fieldInput" >
+        <!-- <input type="text" placeholder="Enter your value" [(ngModel)]="fieldValue" name="fieldInput" required> -->
+        <button type="submit">Search</button>
+      </form>
+  </div>   
+  <h2>Task List</h2>
+<app-task-form></app-task-form>
+</div>
+<div class="background"></div>

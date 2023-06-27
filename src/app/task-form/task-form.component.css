@@ -1,0 +1,47 @@
+.box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: #f1f1f1;
+    width:320px;
+    height:260px;
+    margin-top: 40px;
+    margin-left: 525px;
+  }
+  #b1{
+    margin-left: 630px;
+    width: 110px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: -80px; 
+    margin-top: 10px; 
+    width:290px;
+  }
+ 
+  
+  button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    width: 10px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+  }
+  
+  button.active {
+    background-color: green;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: darkgray;
+  }
+  
